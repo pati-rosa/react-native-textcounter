@@ -7,7 +7,7 @@ import TextCounter from './TextCounter';
 export default function App() {
   return (
     <View style={styles.container}>
-      <TextCounter/>
+      <TextCounter limit={50}/>
     </View>
   );
 }
